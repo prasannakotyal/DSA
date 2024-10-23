@@ -21,10 +21,11 @@ d.next = e
 
 
 '''Traversing a linked list'''
-curr = head
-while(curr!=None):
-    print(curr.data)
-    curr = curr.next
+def traverse_linked_list(head):
+    curr = head
+    while(curr!=None):
+        print(curr.data)
+        curr = curr.next
 
 '''Displaying the linekd list'''
 def display(head):
@@ -42,12 +43,22 @@ def search(head,val):
     curr = head
     while curr:
         if val==curr.data:
-            print('element found')
-            return
+            return 'element found'
         curr = curr.next
-    print('element not found')
+    return 'element not found'
 
 search(head,24)
 
 '''Doubly linked list'''
 # same as singly with a prev pointer
+
+# Only run the following code if this script is run directly (not imported)
+if __name__ == "__main__":
+    print("Traversing the linked list:")
+    traverse_linked_list(head)
+    
+    print("\nDisplaying the linked list:")
+    display(head)
+    
+    print("\nSearching for value 24:")
+    search(head, 24)
