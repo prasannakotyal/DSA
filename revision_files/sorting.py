@@ -118,21 +118,23 @@ print('\n')
 '''Counting sort, key idea - count frequency of each number in array,
 create new array and place each number in its correct position using the frequency count,
 TC - O(N+K) and SC - O(N+K) where K is range of numbers, not good when range is too large'''
-
-def counting_sort(A):
-    maxx = max(A)
+B = [5,5,4,6,1,3,2]
+def counting_sort(B):
+    maxx = max(B)
     counts = [0]*(maxx+1)
 
-    for x in A:
+    for x in B:
         counts[x]+=1
     i=0
     for c in range(maxx+1):
         while counts[c]>0:
-            A[i]=c
+            B[i]=c
             i+=1
             counts[c]-=1
-        return A
+    return B
 
 print('Count sort:\n')
-print(counting_sort(A))
+print(counting_sort(B)) 
 print('\n')
+
+'''Note - the implementation is slightly different for array with negative numbers.'''
