@@ -1,8 +1,6 @@
 from typing import List
 class Solution:
     def maxProfit(self, prices: List[int]) -> int:
-        # Time: O(n)
-        # Space: O(1)
         min_price = float('inf')
         max_profit = 0        
         
