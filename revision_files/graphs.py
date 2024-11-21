@@ -24,7 +24,7 @@ for u,v in A:
 
 # print(M) 
 
-# Converting adjacency list to adjacency list
+# Converting edge list to adjacency list
 
 from collections import defaultdict
 
