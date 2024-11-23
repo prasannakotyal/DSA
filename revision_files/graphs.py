@@ -10,7 +10,6 @@ corresponding to the graph if there is an edge
 # note - Trees = they are connected(we can go from any node to another in the graph) acyclic graphs.
 
 # Array of Edges (Directed) [Start, End]
-n = 8
 A = [[0, 1], [1, 2], [0, 3], [3, 4], [3, 6], [3, 7], [4, 2], [4, 5], [5, 2]]
 
 # Converting above adjacency list to adjacency matrix
@@ -55,7 +54,7 @@ seen = set()
 seen.add(source)
 
 def dfs_iteration(node):
-    stack = [source]
+    stack = [node]
     while stack:
         node = stack.pop()
         print(node)
@@ -72,7 +71,7 @@ seen.add(source)
 
 def bfs_iteration(node):
     q = deque()
-    q.append(source)
+    q.append(node)
     while q:
         node = q.popleft()
         print(node)
