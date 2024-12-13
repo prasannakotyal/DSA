@@ -2,7 +2,7 @@
 
 A collection of data structure and algorithm (DSA) notes and solutions in Python, curated for quick revision and problem-solving practice. This repository covers essential DSA concepts, implementations, and example problems.
 
-Update(13/12/2024) - I'm adding solutions in C++ for some problems because I have ditched python for some time because of its performance inadequacies and also for the sake of exploring a new language.
+Update(13/12/2024) - I'm adding solutions in C++ for some problems because I have ditched python for some time due to its performance inadequacies and also for the sake of exploring a new language.
 
 ## Table of Contents
 
