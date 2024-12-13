@@ -17,7 +17,6 @@ const int  N = 2e5 + 5 ;
 
 int main(){
 ll t=1;
-cin>>t;
 while(t--)
 {   ll n,k,div = 0,ans = 0;
     cin>>n>>k;
