@@ -1,8 +1,6 @@
-# Python DSA Notes and Solutions
+# DSA Notes and Solutions
 
-A collection of data structure and algorithm (DSA) notes and solutions in Python, curated for quick revision and problem-solving practice. This repository covers essential DSA concepts, implementations, and example problems.
-
-Update(13/12/2024) - I'm adding solutions in C++ for some problems because I have ditched python for some time due to its performance inadequacies and also for the sake of exploring a new language.
+DSA probelems and revision notes.
 
 ## Table of Contents
 
@@ -13,12 +11,12 @@ Update(13/12/2024) - I'm adding solutions in C++ for some problems because I hav
 
 ## Introduction
 
-This repository is aimed at helping you quickly revise and practice important data structures and algorithms. Each file in the repository focuses on a specific DSA topic, with Python implementations and explanations of various problems.
-
+This repository is aimed to quickly revise and practice important data structures and algorithms and also contains solutions to various problems I have solved.
 ## Folder Structure
 
-- **problem_solutions/**: Contains Python files with solutions to a variety of DSA problems.
-- **revision_files/**: Additional files or notes for revision, if needed.
+- **C++/**: Contains C++ files with solutions to DSA problems.
+- **Python/**: Contains Python files with solutions to DSA problems.
+- **RevisionFiles/**: files or notes for revision.
 
 ## Topics Covered
 
