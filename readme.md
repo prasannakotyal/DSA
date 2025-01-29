@@ -39,4 +39,4 @@ To use these notes and solutions:
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/prasannakotyal/Python_DSA.git
+   git clone https://github.com/prasannakotyal/DSA.git
